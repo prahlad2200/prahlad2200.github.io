@@ -163,7 +163,7 @@ blockquote {
 =======================================================================================*/
 
 .site-preloader {
-    background-color: #fc6f5c;
+    background-color: #444444;
     height: 100%;
     left: 0;
     position: fixed;
@@ -231,17 +231,31 @@ blockquote {
 
 .nav.navbar-nav li.active a,
 nav.navbar.bootsnav ul.nav > li > a:hover {
-    color: #fc6f5c !important;
+    color: #444444 !important;
 }
 
 nav.navbar.bootsnav {
     border-bottom: 0;
 }
 
+.mytext-logo {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 50px;
+    color: #666666;
+    line-height: 45px;
+}
+.mytext-logo .part-1{
+    font-size: 70px;
+}
+.mytext-logo .part-2{
+    margin-left: -7px;
+}
 /*=====================================================================================
     Welcome Area
 =======================================================================================*/
-
+.welcome-img{
+    filter: grayscale(0.8);
+}
 .welcome-content {
     padding: 32% 0 0;
 }
@@ -267,7 +281,7 @@ nav.navbar.bootsnav {
 
 .welcome-btn a {
     display: inline-block;
-    background-color: #fc6f5c;
+    background-color: #444444;
     color: #fff;
     font-weight: 500;
     margin-right: 10px;
@@ -297,7 +311,7 @@ nav.navbar.bootsnav {
 
 .about-content a {
     display: inline-block;
-    background-color: #fc6f5c;
+    background-color: #444444;
     color: #fff;
     font-weight: 500;
     padding: 12px 20px;
@@ -310,30 +324,35 @@ nav.navbar.bootsnav {
 }
 
 .about-contact-info p i {
-    color: #fc6f5c;
+    color: #444444;
 }
 
 .about-social h5 {
     font-weight: 500;
     margin: 30px 0 10px;
 }
-
+.about-social ul {
+    display: flex;
+}
 .about-social ul li {
     display: inline-block;
 }
 
 .about-social li a {
     display: block;
-    color: #fc6f5c;
-    border: 2px solid #fc6f5c;
+    color: #444444;
+    border: 2px solid #444444;
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 16px;
+    margin-right: 7px;
 }
+.about-social li a svg { fill: #444;     padding: 1px;}
+.about-social li a:hover svg { fill: #FFF;}
 
 .about-social li a:hover {
     color: #fff;
-    background-color: #fc6f5c
+    background-color: #444444
 }
 
 /*=====================================================================================
@@ -362,7 +381,7 @@ nav.navbar.bootsnav {
 }
 
 .progress-bar {
-    background-color: #fc6f5c;
+    background-color: #444444;
     -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
     box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
 }
@@ -390,12 +409,12 @@ nav.navbar.bootsnav {
 }
 
 .service-single:hover i {
-    background-color: #fc6f5c;
+    background-color: #444444;
     color: #fff
 }
 
 .service-single i {
-    color: #fc6f5c;
+    color: #444444;
     font-size: 30px;
     border: 1px solid #e6f0fa;
     border-radius: 50%;
@@ -437,7 +456,7 @@ nav.navbar.bootsnav {
 .portfolio-menu button.active,
 .portfolio-menu button:hover,
 .portfolio-overlay a:hover {
-    background-color: #fc6f5c;
+    background-color: #444444;
     color: #fff
 }
 
@@ -490,7 +509,7 @@ nav.navbar.bootsnav {
     width: 55px;
     height: 55px;
     line-height: 56px;
-    color: #fc6f5c;
+    color: #444444;
 }
 
 .portfolio-overlay h5 {
@@ -525,7 +544,7 @@ nav.navbar.bootsnav {
 
 .col-to-action-content a {
     display: inline-block;
-    background-color: #fc6f5c;
+    background-color: #444444;
     font-weight: 500;
     color: #fff;
     padding: 10px 30px;
@@ -551,7 +570,7 @@ nav.navbar.bootsnav {
 .client-info h5 {
     font-weight: 500;
     margin-bottom: 0;
-    color: #fc6f5c;
+    color: #444444;
 }
 
 .testimonial-carousel .owl-dots {
@@ -565,7 +584,7 @@ nav.navbar.bootsnav {
 .testimonial-carousel .owl-dots .owl-dot {
     width: 14px;
     height: 14px;
-    border: 2px solid #fc6f5c;
+    border: 2px solid #444444;
     display: inline-block;
     margin: 0 3px;
     border-radius: 50%;
@@ -573,7 +592,7 @@ nav.navbar.bootsnav {
 }
 
 .testimonial-carousel .owl-dots .owl-dot.active {
-    background-color: #fc6f5c
+    background-color: #444444
 }
 
 /*=====================================================================================
@@ -606,11 +625,11 @@ nav.navbar.bootsnav {
 }
 
 .post-meta h2 a:hover {
-    color: #fc6f5c;
+    color: #444444;
 }
 
 .post-meta p i {
-    color: #fc6f5c;
+    color: #444444;
     padding-right: 2px;
 }
 
@@ -625,7 +644,7 @@ nav.navbar.bootsnav {
 
 .browse-more-btn a {
     display: inline-block;
-    background-color: #fc6f5c;
+    background-color: #444444;
     color: #fff;
     font-weight: 500;
     padding: 10px 20px;
@@ -635,15 +654,15 @@ nav.navbar.bootsnav {
 .pagination > li > a {
     border: 1px solid #e6f0fa;
     font-weight: 500;
-    color: #fc6f5c;
+    color: #444444;
 }
 
 .pagination > li.active > a,
 .pagination > li.active > a:hover,
 .pagination > li > a:hover {
-    background-color: #fc6f5c;
+    background-color: #444444;
     color: #fff;
-    border-color: #fc6f5c;
+    border-color: #444444;
 }
 
 .blog-wrap {
@@ -664,7 +683,7 @@ nav.navbar.bootsnav {
 
 .contact-form button {
     margin: 15px 0 0;
-    background-color: #fc6f5c;
+    background-color: #444444;
     border: 0;
     font-weight: 500;
     padding: 12px 30px;
@@ -689,7 +708,7 @@ nav.navbar.bootsnav {
 }
 
 .totop {
-    background-color: #fc6f5c;
+    background-color: #444444;
     position: fixed;
     bottom: 30px;
     right: 15px;
@@ -698,7 +717,7 @@ nav.navbar.bootsnav {
 }
 
 .totop > a {
-    background-color: #fc6f5c;
+    background-color: #444444;
     color: #fff;
     display: block;
     font-size: 22px;
@@ -731,7 +750,7 @@ nav.navbar.bootsnav {
 }
 
 .breadcrumb li a {
-    color: #FC6F5C;
+    color: #444444;
 }
 
 .blog-sidebar {
@@ -741,7 +760,7 @@ nav.navbar.bootsnav {
 
 .blog-sidebar h4 {
     font-weight: 500;
-    color: #fc6f5c
+    color: #444444
 }
 
 .blog-sidebar .widget {
@@ -770,7 +789,7 @@ nav.navbar.bootsnav {
 .widget.category ul li a:hover,
 .recent-post-cont h5 a:hover,
 .media-body p a:hover {
-    color: #fc6f5c
+    color: #444444
 }
 
 .widget.recent-post {
@@ -813,7 +832,7 @@ nav.navbar.bootsnav {
 }
 
 .widget.tags li a:hover {
-    background-color: #fc6f5c;
+    background-color: #444444;
 }
 
 .comment-single.media img {
@@ -850,7 +869,7 @@ nav.navbar.bootsnav {
 }
 
 .comment-btn button {
-    background-color: #fc6f5c;
+    background-color: #444444;
     border: 0;
     color: #fff;
     font-weight: 500;
@@ -907,13 +926,13 @@ nav.navbar.bootsnav {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 2px solid #FC6F5C;
+    border: 2px solid #444444;
     display: inline-block;
     margin: 0 4px
 }
 
 .portfolio-image-carousel .owl-dots .owl-dot.active {
-    background-color: #FC6F5C
+    background-color: #444444
 }
 
 /*=====================================================================================
@@ -970,7 +989,7 @@ nav.navbar.bootsnav {
 }
 
 .preview-cell a:hover {
-    background-color: #FC6F5C;
+    background-color: #444444;
     color: #fff
 }
 
@@ -986,7 +1005,7 @@ nav.navbar.bootsnav {
 }
 
 .preview-single h3 a:hover {
-    color: #FC6F5C;
+    color: #444444;
 }
 
 .demo-heading-content h1 {
@@ -995,7 +1014,7 @@ nav.navbar.bootsnav {
 
 .demo-heading-content a {
     display: inline-block;
-    background-color: #FC6F5C;
+    background-color: #444444;
     color: #fff;
     font-weight: 600;
     padding: 12px 30px;
@@ -1010,3 +1029,5 @@ nav.navbar.bootsnav {
 #demo-preview-area {
     padding: 100px 0 60px;
 }
+
+
