@@ -1096,6 +1096,15 @@ nav.navbar.bootsnav {
         max-height: 47vh;
         overflow: hidden;
     }
+    .skill-lists{
+        justify-content: center;
+    }
+    .skill-item {
+        padding: 10px 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    }
 }
  
 
