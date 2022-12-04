@@ -1096,6 +1096,9 @@ nav.navbar.bootsnav {
         max-height: 47vh;
         overflow: hidden;
     }
+    .welcome-content, .about-content .cv-link, .contact-form .submit-btn{
+        text-align: center;
+    }
     .skill-lists{
         justify-content: center;
     }
