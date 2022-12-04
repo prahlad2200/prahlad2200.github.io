@@ -1091,9 +1091,10 @@ nav.navbar.bootsnav {
 }
 
 
-@media (min-width: 576px) { 
-    .welcome-content {
-        /*  padding: 32% 0 0;   */
+@media (max-width: 576px) { 
+    .welcome-img {
+        max-height: 40vh;
+        overflow: hidden;
     }
 }
  
