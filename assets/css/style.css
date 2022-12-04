@@ -1091,3 +1091,11 @@ nav.navbar.bootsnav {
 }
 
 
+@media (min-width: 576px) { 
+    .welcome-content {
+        /*  padding: 32% 0 0;   */
+    }
+}
+ 
+
+
