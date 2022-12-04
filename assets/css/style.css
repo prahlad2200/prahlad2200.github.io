@@ -1099,11 +1099,14 @@ nav.navbar.bootsnav {
     .skill-lists{
         justify-content: center;
     }
-    .skill-item {
+    .skill-item { 
         padding: 10px 20px;
-    font-size: 12px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        text-align: center;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
     }
 }
  
