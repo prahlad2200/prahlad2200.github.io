@@ -1093,7 +1093,7 @@ nav.navbar.bootsnav {
 
 @media (max-width: 576px) { 
     .welcome-img {
-        max-height: 40vh;
+        max-height: 47vh;
         overflow: hidden;
     }
 }
