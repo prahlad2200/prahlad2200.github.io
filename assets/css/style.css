@@ -1056,4 +1056,34 @@ nav.navbar.bootsnav {
     margin-right: 15px;
 }
 
+.icofont
+{
+    font-size: x-large;
+}
+.icofont-star:before {
+    color: #ffb33e;
+}
+.owl-carousel .owl-item .img-placeholder {
+    display: block;
+    width: 100%;
+}
+.testimonial-single .img-placeholder {
+    max-width: 80px;
+    border-radius: 50%;
+    border: 2px solid #e6f0fa;
+    margin: 0 auto 10px;
+}
+.owl-carousel .owl-item .img-placeholder{
+    display: block; 
+    background-color: #e4e5e7; 
+    color: #000; 
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    min-height: 80px;
+    min-width: 80px;
+    text-align: center;
+    padding-top: 29px;
+}
+
 
